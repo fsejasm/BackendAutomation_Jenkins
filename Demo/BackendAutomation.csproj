@@ -8,6 +8,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Features\AutomationDemoNegative.feature.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <SpecFlowFeatureFiles Remove="Features\AutomationDemoNegative.feature" />
+  </ItemGroup>
+
+  <ItemGroup>
     <SpecFlowObsoleteCodeBehindFiles Remove="Features\AutomationDemoNegative - Copy.feature.cs" />
     <SpecFlowObsoleteCodeBehindFiles Remove="Features\SampleAutomationDemo - Copy.feature.cs" />
   </ItemGroup>
