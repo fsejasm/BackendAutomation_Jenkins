@@ -25,11 +25,10 @@ Basic Automation Framework Testing project as part of POC for the Backend Automa
 ### Configuration
 ## How to configure the executions
 ### Default config
-Default configuration is done in a config file located in [appsettings.json](./appsettings.json) located in the root.
+Default configuration is done in a config file located in [appsettings.json](./Demo/appsettings.json) located in the root.
 ### Modify Default Configuration
 If you want to execute the tets on different environments, you should modify the appsettings.json sections, there you are able to modify below information:
-```
-...
+
 {
   //<-- SQL Server Data -->
   "UserName": "sa",
