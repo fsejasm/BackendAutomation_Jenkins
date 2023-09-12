@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <Compile Remove="Features\AutomationDemoNegative.feature.cs" />
+    <Compile Remove="Features\AutomationDemoNegativeTesting.feature.cs" />
   </ItemGroup>
 
   <ItemGroup>
